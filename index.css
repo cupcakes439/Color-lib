@@ -5,10 +5,33 @@
 
 .div1 {
     background-color: #6f5499!important;
+    margin-bottom: 100px!important;
 }
 
 .p1 {
     margin-bottom: 10rem!important;
+}
+
+@media screen and (min-width: 992px) {
+    .p1 {
+        font-size: 40px!important;
+        font-weight: 500!important;
+    }
+}
+
+.a1 {
+    text-decoration: none!important;
+    color:  #337ab7!important;
+}
+
+.h2 {
+    color: #555555!important;
     font-size: 40px!important;
-    font-weight: 500!important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p2 {
+    color: #555555!important;
+    font-size: 21px!important;
+    font-family: Arial, Helvetica, sans-serif;
 }
